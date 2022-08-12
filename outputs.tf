@@ -1,7 +1,4 @@
-
-    // Copyright (c) 2020, Oracle and/or its affiliates. All rights reserved.
-    // Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
-    
+  
     output "vcn_id" {
       description = "OCID of created VCN. "
       value       = oci_core_vcn.this.id
